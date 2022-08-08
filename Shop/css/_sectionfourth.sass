@@ -1,0 +1,111 @@
+.section__fourth
+    max-width: 1140px
+    margin: 0 230px 0 0px
+
+    &_top
+        margin-top: 140px
+
+        &_heading
+            font-family: $sourceFont
+            font-weight: 600
+            font-size: 44px
+            line-height: 130%
+            color: $textColor
+            text-align: center
+
+    &_bottom
+        display: flex
+
+        &_left
+            margin-top: 60px
+
+        &_right
+            margin-left: 127px
+
+            &_top
+                display: flex
+
+                &_logo
+                    margin-top: 67px
+
+                &_buttons
+                    margin: 60px 0 0 208px
+                    display: flex
+
+                &_left
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
+                    background: rgba(238,85 ,20 ,0.1 )
+                    margin-right: 50px
+
+                &_left > img
+                    opacity: 0.1
+                    transform: rotate(-180deg)
+
+                &_right
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
+                    background: rgba(238,85 ,20 ,0.1 )
+
+                &_right > img
+                    opacity: 0.1
+
+                &_left:hover > img
+                    opacity: 1
+                    transition: .3s
+
+                &_right:hover > img
+                    opacity: 1
+                    transition: .3s
+
+            &_bot
+
+                &_quote
+                    margin: 30px 0 10px 0
+
+                &_info
+
+                    &_heading
+                        font-family: $sourceFont
+                        font-weight: 600
+                        font-size: 22px
+                        line-height: 150%
+                        color: $textColor
+
+                    &_text
+                        padding-top: 15px
+                        width: 390px
+                        font-family: $poppinsFont
+                        font-style: italic
+                        font-weight: 500
+                        font-size: 14px
+                        line-height: 160%
+                        opacity: 0.7
+                        color: $textColor
+
+                &_author
+
+                    &_heading
+                        padding-top: 25px
+                        font-family: $poppinsFont
+                        font-weight: 500
+                        font-size: 18px
+                        line-height: 160%
+                        color: $textColor
+
+                    &_text
+                        padding-top: 9px
+                        font-family: $poppinsFont
+                        font-weight: 400
+                        font-size: 14px
+                        line-height: 160%
+                        color: $textColor
+                        opacity: 0.8

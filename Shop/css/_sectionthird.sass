@@ -1,0 +1,158 @@
+.section__third
+    max-width: 1140px
+    margin: 0 230px 0 px
+
+    &_top
+        margin-top: 140px
+
+        &_headingmin
+            font-family: $sourceFont
+            font-weight: 600
+            font-size: 20px
+            line-height: 150%
+            letter-spacing: 0.05em
+            color: $buttonColor
+
+        &_heading
+            padding-top: 13px
+            font-family: $sourceFont
+            font-weight: 600
+            font-size: 44px
+            line-height: 130%
+            color: $textColor
+
+        &_nav
+            margin-top: 16px
+            display: flex
+            justify-content: space-between
+
+            &_list
+                display: flex
+                justify-content: center
+                align-items: center
+                gap: 35px
+
+                &_item
+                    font-family: $poppinsFont
+                    font-weight: 400
+                    font-size: 20px
+                    line-height: 140%
+                    letter-spacing: 0.05em
+
+                    &_first
+                        font-family: $poppinsFont
+                        font-weight: 400
+                        font-size: 20px
+                        line-height: 140%
+                        letter-spacing: 0.05em
+
+                    &_first > a
+                        color: $textColor
+                        opacity: 0.7
+
+                &_item > a
+                    color: $textColor
+                    opacity: 0.7
+
+                &_item > a:hover
+                    color: $buttonColor
+                    opacity: 1
+                    border-bottom: 1px solid $buttonColor
+
+            &_buttons
+                display: flex
+                justify-content: center
+                align-items: center
+
+                &_left
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
+                    background: rgba(238,85 ,20 ,0.1 )
+                    margin-right: 50px
+
+                &_left > img
+                    opacity: 0.1
+                    transform: rotate(-180deg)
+
+                &_right
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
+                    background: rgba(238,85 ,20 ,0.1 )
+
+                &_right > img
+                    opacity: 0.1
+
+                &_left:hover > img
+                    opacity: 1
+                    transition: .3s
+
+                &_right:hover > img
+                    opacity: 1
+                    transition: .3s
+
+    &_bottom
+        margin-top: 30px
+        display: flex
+
+        &_cart
+
+            &_img
+
+            &_img > img
+                margin-left: -30px
+
+            &_info
+
+                &_heading
+                    padding-bottom: 10px
+                    font-family: $sourceFont
+                    font-weight: 600
+                    font-size: 22px
+                    line-height: 150%
+                    color: $textColor
+
+                &_paragraph
+                    display: flex
+
+                    &_first
+                        margin: 10px 10px 0 0
+                        font-family: $poppinsFont
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 160%
+                        color: $textColor
+                        opacity: 0.7
+
+                    &_second
+                        margin-top: 10px
+                        font-family: $poppinsFont
+                        font-weight: 500
+                        font-size: 16px
+                        line-height: 160%
+                        color: $textColor
+                        opacity: 0.8
+
+                &_button
+                    margin-top: 10px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 137px
+                    height: 59px
+                    background: $buttonColor
+                    border-radius: 5px
+
+                &_button > a
+                    font-family: 'Poppins', sans-serif
+                    font-weight: 500
+                    font-size: 18px
+                    line-height: 160%
+                    color: $buttontextColor
